@@ -1,5 +1,9 @@
 #include <iostream>
+#include <string>
 
 void main() {
-    std::cout << "Hello world" << std::endl;
+
+    const std::string myString("Hello world");
+
+    std::cout << myString << std::endl;
 }
